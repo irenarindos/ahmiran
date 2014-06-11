@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<MenuSpec>
+
+<sprite>
+  <newFile>images/newGameButton.png</newFile>
+  <newWidth>321</newWidth>
+  <newHeight>90</newHeight>
+  <newSrcX>0</newSrcX>
+  <newSrcY>0</newSrcY>
+  <newSpeedX>0</newSpeedX>
+  <newSpeedY>0</newSpeedY>
+  <newX>300</newX>
+  <newY>150</newY>
+  <newTransparency>true</newTransparency>
+</sprite>
+
+<sprite>
+  <openFile>images/loadGameButton.png</openFile>
+  <openWidth>321</openWidth>
+  <openHeight>90</openHeight>
+  <openSrcX>0</openSrcX>
+  <openSrcY>0</openSrcY>
+  <openSpeedX>0</openSpeedX>
+  <openSpeedY>0</openSpeedY>
+  <openX>300</openX>
+  <openY>250</openY>
+  <openTransparency>true</openTransparency>
+</sprite>
+
+<sprite>
+  <exitFile>images/exitButton.png</exitFile>
+  <exitWidth>321</exitWidth>
+  <exitHeight>90</exitHeight>
+  <exitSrcX>0</exitSrcX>
+  <exitSrcY>0</exitSrcY>
+  <exitSpeedX>0</exitSpeedX>
+  <exitSpeedY>0</exitSpeedY>
+  <exitX>300</exitX>
+  <exitY>350</exitY>
+  <exitTransparency>true</exitTransparency>
+</sprite>
+
+<sprite>
+  <archerFile>images/archerCharButton.png</archerFile>
+  <archerWidth>162</archerWidth>
+  <archerHeight>310</archerHeight>
+  <archerSrcX>0</archerSrcX>
+  <archerSrcY>0</archerSrcY>
+  <archerSpeedX>0</archerSpeedX>
+  <archerSpeedY>0</archerSpeedY>
+  <archerX>50</archerX>
+  <archerY>100</archerY>
+  <archerTransparency>true</archerTransparency>
+</sprite>
+
+<sprite>
+  <wizardFile>images/wizardCharButton.png</wizardFile>
+  <wizardWidth>158</wizardWidth>
+  <wizardHeight>308</wizardHeight>
+  <wizardSrcX>0</wizardSrcX>
+  <wizardSrcY>0</wizardSrcY>
+  <wizardSpeedX>0</wizardSpeedX>
+  <wizardSpeedY>0</wizardSpeedY>
+  <wizardX>250</wizardX>
+  <wizardY>100</wizardY>
+  <wizardTransparency>true</wizardTransparency>
+</sprite>
+
+<sprite>
+  <warriorFile>images/warriorCharButton.png</warriorFile>
+  <warriorWidth>163</warriorWidth>
+  <warriorHeight>312</warriorHeight>
+  <warriorSrcX>0</warriorSrcX>
+  <warriorSrcY>0</warriorSrcY>
+  <warriorSpeedX>0</warriorSpeedX>
+  <warriorSpeedY>0</warriorSpeedY>
+  <warriorX>450</warriorX>
+  <warriorY>100</warriorY>
+  <warriorTransparency>true</warriorTransparency>
+</sprite>
+
+<sprite>
+  <clickoffFile>images/clickoff.png</clickoffFile>
+  <clickoffWidth>57</clickoffWidth>
+  <clickoffHeight>51</clickoffHeight>
+  <clickoffSrcX>0</clickoffSrcX>
+  <clickoffSrcY>0</clickoffSrcY>
+  <clockoffSpeedX>0</clockoffSpeedX>
+  <clockoffSpeedY>0</clockoffSpeedY>
+  <clickoffX>0</clickoffX>
+  <clickoffY>0</clickoffY>
+  <clickoffTransparency>false</clickoffTransparency>
+</sprite>
+
+<sprite>
+  <clickonFile>images/clickon.png</clickonFile>
+  <clickonWidth>57</clickonWidth>
+  <clickonHeight>51</clickonHeight>
+  <clickonSrcX>0</clickonSrcX>
+  <clickonSrcY>0</clickonSrcY>
+  <clickonSpeedX>0</clickonSpeedX>
+  <clickonSpeedY>0</clickonSpeedY>
+  <clickonX>0</clickonX>
+  <clickonY>0</clickonY>
+  <clickonTransparency>false</clickonTransparency>
+</sprite>
+
+<sprite>
+  <charOnFile>images/clickon.png</charOnFile>
+  <charOnWidth>57</charOnWidth>
+  <charOnHeight>51</charOnHeight>
+  <charOnSrcX>0</charOnSrcX>
+  <charOnSrcY>0</charOnSrcY>
+  <charOnSpeedX>0</charOnSpeedX>
+  <charOnSpeedY>0</charOnSpeedY>
+  <charOnX>0</charOnX>
+  <charOnY>0</charOnY>
+  <charOnTransparency>false</charOnTransparency>
+</sprite>
+
+<sprite>
+  <CharOffFile>images/clickoff.png</CharOffFile>
+  <CharOffWidth>57</CharOffWidth>
+  <CharOffHeight>51</CharOffHeight>
+  <CharOffSrcX>0</CharOffSrcX>
+  <CharOffSrcY>0</CharOffSrcY>
+  <CharOffSpeedX>0</CharOffSpeedX>
+  <CharOffSpeedY>0</CharOffSpeedY>
+  <CharOffX>0</CharOffX>
+  <CharOffY>0</CharOffY>
+  <CharOffTransparency>false</CharOffTransparency>
+</sprite>
+
+<sprite>
+  <archeroffFile>images/archeroff.png</archeroffFile>
+  <archeroffWidth>57</archeroffWidth>
+  <archeroffHeight>51</archeroffHeight>
+  <archeroffSrcX>0</archeroffSrcX>
+  <archeroffSrcY>0</archeroffSrcY>
+  <archeroffSpeedX>0</archeroffSpeedX>
+  <archeroffSpeedY>0</archeroffSpeedY>
+  <archeroffX>0</archeroffX>
+  <archeroffY>0</archeroffY>
+  <archeroffTransparency>false</archeroffTransparency>
+</sprite>
+<sprite>
+  <wizardoffFile>images/wizardoff.png</wizardoffFile>
+  <wizardoffWidth>57</wizardoffWidth>
+  <wizardoffHeight>51</wizardoffHeight>
+  <wizardoffSrcX>0</wizardoffSrcX>
+  <wizardoffSrcY>0</wizardoffSrcY>
+  <wizardoffSpeedX>0</wizardoffSpeedX>
+  <wizardoffSpeedY>0</wizardoffSpeedY>
+  <wizardoffX>0</wizardoffX>
+  <wizardoffY>0</wizardoffY>
+  <wizardoffTransparency>false</wizardoffTransparency>
+</sprite>
+<sprite>
+  <archeronFile>images/archeron.png</archeronFile>
+  <archeronWidth>57</archeronWidth>
+  <archeronHeight>51</archeronHeight>
+  <archeronSrcX>0</archeronSrcX>
+  <archeronSrcY>0</archeronSrcY>
+  <archeronSpeedX>0</archeronSpeedX>
+  <archeronSpeedY>0</archeronSpeedY>
+  <archeronX>0</archeronX>
+  <archeronY>0</archeronY>
+  <archeronTransparency>false</archeronTransparency>
+</sprite>
+<sprite>
+  <wizardonFile>images/wizardon.png</wizardonFile>
+  <wizardonWidth>57</wizardonWidth>
+  <wizardonHeight>51</wizardonHeight>
+  <wizardonSrcX>0</wizardonSrcX>
+  <wizardonSrcY>0</wizardonSrcY>
+  <wizardonSpeedX>0</wizardonSpeedX>
+  <wizardonSpeedY>0</wizardonSpeedY>
+  <wizardonX>0</wizardonX>
+  <wizardonY>0</wizardonY>
+  <wizardonTransparency>false</wizardonTransparency>
+</sprite>
+
+</MenuSpec>

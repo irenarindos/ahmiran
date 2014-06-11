@@ -1,0 +1,94 @@
+<?xml version = "1.0"?>
+
+<GameData>
+
+<view>
+  <viewWidth>640</viewWidth>
+  <viewHeight>480</viewHeight>
+</view>
+
+<screen>
+    <screenWidth>640</screenWidth>
+    <screenHeight>480</screenHeight>
+</screen>
+
+<world>
+  <worldWidth>1600</worldWidth>
+  <worldHeight>600</worldHeight>
+</world>
+
+<Font name="font">
+  <font>font/pirulen.ttf</font>
+  <fontSize>14</fontSize>
+</Font>
+
+<mountains>
+    <mountainsFile>images/mountains.png</mountainsFile>
+    <mountainsWidth>800</mountainsWidth>
+    <mountainsHeight>600</mountainsHeight>
+    <mountainsSrcX>0</mountainsSrcX>
+    <mountainsSrcY>0</mountainsSrcY>
+ 	  <mountainsTransparency>true</mountainsTransparency>
+    <mountainsAlpha>false</mountainsAlpha>
+</mountains>
+
+<clouds>
+    <cloudsFile>images/clouds.png</cloudsFile>
+    <cloudsWidth>800</cloudsWidth>
+    <cloudsHeight>600</cloudsHeight>
+    <cloudsSrcX>0</cloudsSrcX>
+    <cloudsSrcY>0</cloudsSrcY>
+ 	  <cloudsTransparency>false</cloudsTransparency>
+    <cloudsAlpha>false</cloudsAlpha>
+</clouds>
+
+<pokeball>
+	<pokeballFile>images/pokeball.png</pokeballFile>
+  <pokeballMulti>true</pokeballMulti>
+  <pokeballFrames>2</pokeballFrames>
+  <pokeballFrameInterval>2</pokeballFrameInterval>
+  <pokeballTransparency>false</pokeballTransparency>
+  <pokeballAlpha>true</pokeballAlpha>
+	<pokeballSrcX>0</pokeballSrcX>
+  <pokeballSrcY>0</pokeballSrcY>
+  <pokeballWidth>128</pokeballWidth>
+  <pokeballHeight>90</pokeballHeight>
+  <pokeballLoc pokeballX="10" pokeballY="10"/>
+  <pokeballSpeed pokeballXspeed="100" pokeballYspeed="100"/>
+  <pokeballMaxSpeed pokeballMaxXspeed="350" pokeballMaxYspeed="350"/>
+  <pokeballNum>10</pokeballNum>
+  <pokeballChunks>25</pokeballChunks>
+</pokeball>
+
+<abra name="abra">
+  <abraFile>images/abraEvolution.png</abraFile>
+  <abraFrames>3</abraFrames>
+  <abraFrameInterval>2</abraFrameInterval>
+  <abraWidth>210</abraWidth>
+  <abraHeight>75</abraHeight>
+  <abraSrcX>0</abraSrcX>
+  <abraSrcY>0</abraSrcY>
+  <abraSpeed abraXspeed="250" abraYspeed="250"/>
+  <abraMaxSpeed abraMaxXspeed="100" abraMaxYspeed="350"/>
+  <abraLoc abraX="200" abraY="200"/>
+  <abraTransparency>true</abraTransparency>
+  <abraAlpha>true</abraAlpha>
+	<abraChunks>25</abraChunks>
+</abra>
+
+<abraProjectile name="abraProjectile">
+  <abraProjectileFile>images/fireball.png</abraProjectileFile>
+  <abraProjectileFrames>4</abraProjectileFrames>
+  <abraProjectileFrameInterval>2</abraProjectileFrameInterval>
+  <abraProjectileWidth>100</abraProjectileWidth>
+  <abraProjectileHeight>25</abraProjectileHeight>
+  <abraProjectileSrcX>0</abraProjectileSrcX>
+  <abraProjectileSrcY>0</abraProjectileSrcY>
+  <abraProjectileSpeed abraProjectileXspeed="0" abraProjectileYspeed="0"/>
+  <abraProjectileMaxSpeed abraProjectileMaxXspeed="800" abraProjectileMaxYspeed="800"/>
+  <abraProjectileLoc abraProjectileX="0" abraProjectileY="0"/>
+  <abraProjectileTransparency>false</abraProjectileTransparency>
+  <abraProjectileAlpha>true</abraProjectileAlpha>
+	<abraProjectileChunks>25</abraProjectileChunks>
+</abraProjectile>
+</GameData>

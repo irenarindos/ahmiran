@@ -1,0 +1,755 @@
+<?xml version = "1.0"?>
+
+<GameData>
+
+<view>
+  <viewWidth>640</viewWidth>
+  <viewHeight>480</viewHeight>
+</view>
+
+<screen>
+    <screenWidth>640</screenWidth>
+    <screenHeight>480</screenHeight>
+</screen>
+
+<world>
+  <worldWidth>4000</worldWidth>
+  <worldHeight>3200</worldHeight>
+</world>
+
+<Font name="font">
+  <font>font/CalligrapherRegular.ttf</font>
+  <fontSize>16</fontSize>
+</Font>
+
+<hud name="hud">
+  <hudFile>images/hud.png</hudFile>
+  <hudSrcX>0</hudSrcX>
+  <hudSrcY>0</hudSrcY>
+  <hudWidth>320</hudWidth>
+  <hudHeight>200</hudHeight>
+  <hudAlpha>true</hudAlpha>
+</hud>
+
+<deadMenu name="deadMenu">
+  <deadMenuFile>images/deadMenu.png</deadMenuFile>
+  <deadMenuSrcX>0</deadMenuSrcX>
+  <deadMenuSrcY>0</deadMenuSrcY>
+  <deadMenuWidth>640</deadMenuWidth>
+  <deadMenuHeight>480</deadMenuHeight>
+  <deadMenuAlpha>true</deadMenuAlpha>
+</deadMenu>
+
+<startMenu name="startMenu">
+  <startMenuFile>images/startMenu.png</startMenuFile>
+  <startMenuSrcX>0</startMenuSrcX>
+  <startMenuSrcY>0</startMenuSrcY>
+  <startMenuWidth>640</startMenuWidth>
+  <startMenuHeight>480</startMenuHeight>
+  <startMenuAlpha>true</startMenuAlpha>
+</startMenu>
+
+<charMenu name="charMenu">
+  <charMenuFile>images/charMenu.png</charMenuFile>
+  <charMenuSrcX>0</charMenuSrcX>
+  <charMenuSrcY>0</charMenuSrcY>
+  <charMenuWidth>640</charMenuWidth>
+  <charMenuHeight>480</charMenuHeight>
+  <charMenuAlpha>true</charMenuAlpha>
+</charMenu>
+
+<worldMap name="worldMap">
+    <worldMapFile>images/map.jpg</worldMapFile>
+    <worldMapObjects>images/obstacleMap.jpg</worldMapObjects>
+    <worldMapWidth>4000</worldMapWidth>
+    <worldMapHeight>3200</worldMapHeight>
+    <worldMapCellSize>28</worldMapCellSize>
+    <worldMapSrcX>0</worldMapSrcX>
+    <worldMapSrcY>0</worldMapSrcY>
+    <worldMapAlpha>false</worldMapAlpha>
+</worldMap>
+
+<warrior name="warrior">
+    <warriorFile>images/warriorAttack.png</warriorFile>
+    <warriorFrames>4</warriorFrames>
+    <warriorAnimations>8</warriorAnimations>
+    <warriorFrameInterval>9</warriorFrameInterval>
+    <warriorWidth>260</warriorWidth>
+    <warriorHeight>388</warriorHeight>
+    <warriorSrcX>0</warriorSrcX>
+    <warriorSrcY>0</warriorSrcY>
+    <warriorSpeed warriorXspeed="150" warriorYspeed="150"/>
+    <warriorMaxSpeed warriorMaxXspeed="800" warriorMaxYspeed="800"/>
+    <warriorLoc warriorX="2000" warriorY="1680"/>
+    <warriorAlpha>true</warriorAlpha>
+    <warriorAttackType>0</warriorAttackType>
+    <warriorAttackInterval>16.0</warriorAttackInterval>
+    <warriorXP>0</warriorXP>
+    <warriorLevel>1</warriorLevel>
+    <warriorHP>100</warriorHP>
+    <warriorMP>50</warriorMP>
+    <warriorAttack>20</warriorAttack>
+    <warriorDefense>20</warriorDefense>
+</warrior>
+
+<archer name="archer">
+    <archerFile>images/archerAttack.png</archerFile>
+    <archerFrames>4</archerFrames>
+    <archerAnimations>8</archerAnimations>
+    <archerFrameInterval>16</archerFrameInterval>
+    <archerWidth>300</archerWidth>
+    <archerHeight>400</archerHeight>
+    <archerSrcX>0</archerSrcX>
+    <archerSrcY>0</archerSrcY>
+    <archerSpeed archerXspeed="350" archerYspeed="350"/>
+    <archerMaxSpeed archerMaxXspeed="800" archerMaxYspeed="800"/>
+    <archerLoc archerX="2000" archerY="1680"/>
+    <archerAlpha>true</archerAlpha>
+    <archerAttackType>1</archerAttackType>
+    <archerAttackInterval>64.0</archerAttackInterval>
+    <archerXP>0</archerXP>
+    <archerLevel>100</archerLevel>
+    <archerHP>7500</archerHP>
+    <archerMP>7500</archerMP>
+    <archerAttack>1500</archerAttack>
+    <archerDefense>1500</archerDefense>
+</archer>
+
+<archerProjectile name="archerProjectile">
+    <archerProjectileFile>images/archerProjectile.png</archerProjectileFile>
+    <archerProjectileFrames>4</archerProjectileFrames>
+    <archerProjectileAnimations>1</archerProjectileAnimations>
+    <archerProjectileFrameInterval>8</archerProjectileFrameInterval>
+    <archerProjectileWidth>80</archerProjectileWidth>
+    <archerProjectileHeight>20</archerProjectileHeight>
+    <archerProjectileSrcX>0</archerProjectileSrcX>
+    <archerProjectileSrcY>0</archerProjectileSrcY>
+    <archerProjectileSpeed archerProjectileXspeed="350" archerProjectileYspeed="350"/>
+    <archerProjectileMaxSpeed archerProjectileMaxXspeed="800" archerProjectileMaxYspeed="800"/>
+    <archerProjectileLoc archerProjectileX="0" archerProjectileY="0"/>
+    <archerProjectileAlpha>true</archerProjectileAlpha>
+    <archerProjectileRange>1000.0</archerProjectileRange>
+    <archerProjectileChunks>10</archerProjectileChunks>
+</archerProjectile>
+
+<wizard name="wizard">
+    <wizardFile>images/wizardAttack.png</wizardFile>
+    <wizardFrames>4</wizardFrames>
+    <wizardAnimations>9</wizardAnimations>
+    <wizardFrameInterval>8</wizardFrameInterval>
+    <wizardWidth>300</wizardWidth>
+    <wizardHeight>562</wizardHeight>
+    <wizardSrcX>0</wizardSrcX>
+    <wizardSrcY>0</wizardSrcY>
+    <wizardSpeed wizardXspeed="150" wizardYspeed="150"/>
+    <wizardMaxSpeed wizardMaxXspeed="800" wizardMaxYspeed="800"/>
+    <wizardLoc wizardX="2000" wizardY="1680"/>
+    <wizardAlpha>true</wizardAlpha>
+    <wizardAttackType>1</wizardAttackType>
+    <wizardAttackInterval>16.0</wizardAttackInterval>
+    <wizardXP>0</wizardXP>
+    <wizardLevel>1</wizardLevel>
+    <wizardHP>50</wizardHP>
+    <wizardMP>100</wizardMP>
+    <wizardAttack>20</wizardAttack>
+    <wizardDefense>5</wizardDefense>
+</wizard>
+
+<wizardProjectile name="wizardProjectile">
+    <wizardProjectileFile>images/wizardProjectile.png</wizardProjectileFile>
+    <wizardProjectileFrames>4</wizardProjectileFrames>
+    <wizardProjectileAnimations>1</wizardProjectileAnimations>
+    <wizardProjectileFrameInterval>8</wizardProjectileFrameInterval>
+    <wizardProjectileWidth>192</wizardProjectileWidth>
+    <wizardProjectileHeight>48</wizardProjectileHeight>
+    <wizardProjectileSrcX>0</wizardProjectileSrcX>
+    <wizardProjectileSrcY>0</wizardProjectileSrcY>
+    <wizardProjectileSpeed wizardProjectileXspeed="350" wizardProjectileYspeed="350"/>
+    <wizardProjectileMaxSpeed wizardProjectileMaxXspeed="800" wizardProjectileMaxYspeed="800"/>
+    <wizardProjectileLoc wizardProjectileX="0" wizardProjectileY="0"/>
+    <wizardProjectileAlpha>true</wizardProjectileAlpha>
+    <wizardProjectileRange>400.0</wizardProjectileRange>
+    <wizardProjectileChunks>25</wizardProjectileChunks>
+</wizardProjectile>
+
+<boss name="boss">
+    <bossFile>images/finalBossAttack.png</bossFile>
+    <bossFrames>4</bossFrames>
+    <bossAnimations>9</bossAnimations>
+    <bossFrameInterval>4</bossFrameInterval>
+    <bossWidth>260</bossWidth>
+    <bossHeight>550</bossHeight>
+    <bossSrcX>0</bossSrcX>
+    <bossSrcY>0</bossSrcY>
+    <bossSpeed bossXspeed="100" bossYspeed="100"/>
+    <bossMaxSpeed bossMaxXspeed="800" bossMaxYspeed="800"/>
+    <bossLoc bossX="560" bossY="400"/>
+    <bossAlpha>true</bossAlpha>
+    <bossPatrolRange>100.0</bossPatrolRange>
+    <bossPatrolSpeed bossPatrolXspeed="40" bossPatrolYspeed="40"/>
+    <bossSight>250.0</bossSight>
+	<bossAttackRange>35.0</bossAttackRange>
+    <bossNum>1</bossNum>
+    <bossRespawn>10</bossRespawn>
+    <bossAttackType>0</bossAttackType>
+    <bossAttackInterval>16.0</bossAttackInterval>
+	<bossDifficulty>3</bossDifficulty>
+    <bossXP>1000</bossXP>
+    <bossLevel>10</bossLevel>
+    <bossHP>500</bossHP>
+    <bossMP>400</bossMP>
+    <bossAttack>50</bossAttack>
+    <bossDefense>50</bossDefense>
+</boss>
+
+<wolf name="wolf">
+    <wolfFile>images/WolfAttack.png</wolfFile>
+    <wolfFrames>3</wolfFrames>
+    <wolfAnimations>9</wolfAnimations>
+    <wolfFrameInterval>4</wolfFrameInterval>
+    <wolfWidth>180</wolfWidth>
+    <wolfHeight>450</wolfHeight>
+    <wolfSrcX>0</wolfSrcX>
+    <wolfSrcY>0</wolfSrcY>
+    <wolfSpeed wolfXspeed="100" wolfYspeed="100"/>
+    <wolfMaxSpeed wolfMaxXspeed="800" wolfMaxYspeed="800"/>
+    <wolfLoc wolfX="1600" wolfY="2050"/>
+    <wolfAlpha>true</wolfAlpha>
+    <wolfPatrolRange>100.0</wolfPatrolRange>
+    <wolfPatrolSpeed wolfPatrolXspeed="40" wolfPatrolYspeed="40"/>
+    <wolfSight>150.0</wolfSight>
+	<wolfAttackRange>35.0</wolfAttackRange>
+    <wolfNum>5</wolfNum>
+    <wolfRespawn>5</wolfRespawn>
+    <wolfAttackType>0</wolfAttackType>
+    <wolfAttackInterval>16.0</wolfAttackInterval>
+    <wolfXP>100</wolfXP>
+    <wolfLevel>1</wolfLevel>
+    <wolfHP>50</wolfHP>
+    <wolfMP>50</wolfMP>
+    <wolfAttack>5</wolfAttack>
+    <wolfDefense>5</wolfDefense>
+</wolf>
+
+<wolf1 name="wolf1">
+    <wolf1File>images/WolfAttack.png</wolf1File>
+    <wolf1Frames>3</wolf1Frames>
+    <wolf1Animations>9</wolf1Animations>
+    <wolf1FrameInterval>4</wolf1FrameInterval>
+    <wolf1Width>180</wolf1Width>
+    <wolf1Height>450</wolf1Height>
+    <wolf1SrcX>0</wolf1SrcX>
+    <wolf1SrcY>0</wolf1SrcY>
+    <wolf1Speed wolf1Xspeed="100" wolf1Yspeed="100"/>
+    <wolf1MaxSpeed wolf1MaxXspeed="800" wolf1MaxYspeed="800"/>
+    <wolf1Loc wolf1X="2350" wolf1Y="2000"/>
+    <wolf1Alpha>true</wolf1Alpha>
+    <wolf1PatrolRange>100.0</wolf1PatrolRange>
+    <wolf1PatrolSpeed wolf1PatrolXspeed="40" wolf1PatrolYspeed="40"/>
+    <wolf1Sight>150.0</wolf1Sight>
+	<wolf1AttackRange>35.0</wolf1AttackRange>
+    <wolf1Num>10</wolf1Num>
+    <wolf1Respawn>5</wolf1Respawn>
+    <wolf1AttackType>0</wolf1AttackType>
+    <wolf1AttackInterval>16.0</wolf1AttackInterval>
+    <wolf1XP>100</wolf1XP>
+    <wolf1Level>1</wolf1Level>
+    <wolf1HP>50</wolf1HP>
+    <wolf1MP>50</wolf1MP>
+    <wolf1Attack>5</wolf1Attack>
+    <wolf1Defense>5</wolf1Defense>
+</wolf1>
+
+<wolf2 name="wolf2">
+    <wolf2File>images/WolfAttack.png</wolf2File>
+    <wolf2Frames>3</wolf2Frames>
+    <wolf2Animations>9</wolf2Animations>
+    <wolf2FrameInterval>4</wolf2FrameInterval>
+    <wolf2Width>180</wolf2Width>
+    <wolf2Height>450</wolf2Height>
+    <wolf2SrcX>0</wolf2SrcX>
+    <wolf2SrcY>0</wolf2SrcY>
+    <wolf2Speed wolf2Xspeed="100" wolf2Yspeed="100"/>
+    <wolf2MaxSpeed wolf2MaxXspeed="800" wolf2MaxYspeed="800"/>
+    <wolf2Loc wolf2X="1360" wolf2Y="1320"/>
+    <wolf2Alpha>true</wolf2Alpha>
+    <wolf2PatrolRange>100.0</wolf2PatrolRange>
+    <wolf2PatrolSpeed wolf2PatrolXspeed="40" wolf2PatrolYspeed="40"/>
+    <wolf2Sight>150.0</wolf2Sight>
+	<wolf2AttackRange>35.0</wolf2AttackRange>
+    <wolf2Num>10</wolf2Num>
+    <wolf2Respawn>5</wolf2Respawn>
+    <wolf2AttackType>0</wolf2AttackType>
+    <wolf2AttackInterval>16.0</wolf2AttackInterval>
+    <wolf2XP>100</wolf2XP>
+    <wolf2Level>1</wolf2Level>
+    <wolf2HP>50</wolf2HP>
+    <wolf2MP>50</wolf2MP>
+    <wolf2Attack>5</wolf2Attack>
+    <wolf2Defense>5</wolf2Defense>
+</wolf2>
+
+<wolf3 name="wolf3">
+    <wolf3File>images/WolfAttack.png</wolf3File>
+    <wolf3Frames>3</wolf3Frames>
+    <wolf3Animations>9</wolf3Animations>
+    <wolf3FrameInterval>4</wolf3FrameInterval>
+    <wolf3Width>180</wolf3Width>
+    <wolf3Height>450</wolf3Height>
+    <wolf3SrcX>0</wolf3SrcX>
+    <wolf3SrcY>0</wolf3SrcY>
+    <wolf3Speed wolf3Xspeed="100" wolf3Yspeed="100"/>
+    <wolf3MaxSpeed wolf3MaxXspeed="800" wolf3MaxYspeed="800"/>
+    <wolf3Loc wolf3X="1300" wolf3Y="2100"/>
+    <wolf3Alpha>true</wolf3Alpha>
+    <wolf3PatrolRange>100.0</wolf3PatrolRange>
+    <wolf3PatrolSpeed wolf3PatrolXspeed="40" wolf3PatrolYspeed="40"/>
+    <wolf3Sight>150.0</wolf3Sight>
+	<wolf3AttackRange>35.0</wolf3AttackRange>
+    <wolf3Num>10</wolf3Num>
+    <wolf3Respawn>5</wolf3Respawn>
+    <wolf3AttackType>0</wolf3AttackType>
+    <wolf3AttackInterval>16.0</wolf3AttackInterval>
+    <wolf3XP>100</wolf3XP>
+    <wolf3Level>1</wolf3Level>
+    <wolf3HP>50</wolf3HP>
+    <wolf3MP>50</wolf3MP>
+    <wolf3Attack>5</wolf3Attack>
+    <wolf3Defense>5</wolf3Defense>
+</wolf3>
+
+<evilSquirrel name="evilSquirrel">
+    <evilSquirrelFile>images/evilSquirrelAttack.png</evilSquirrelFile>
+    <evilSquirrelFrames>3</evilSquirrelFrames>
+    <evilSquirrelAnimations>9</evilSquirrelAnimations>
+    <evilSquirrelFrameInterval>4</evilSquirrelFrameInterval>
+    <evilSquirrelWidth>120</evilSquirrelWidth>
+    <evilSquirrelHeight>270</evilSquirrelHeight>
+    <evilSquirrelSrcX>0</evilSquirrelSrcX>
+    <evilSquirrelSrcY>0</evilSquirrelSrcY>
+    <evilSquirrelSpeed evilSquirrelXspeed="80" evilSquirrelYspeed="80"/>
+    <evilSquirrelMaxSpeed evilSquirrelMaxXspeed="800" evilSquirrelMaxYspeed="800"/>
+    <evilSquirrelLoc evilSquirrelX="3090" evilSquirrelY="1300"/>
+    <evilSquirrelAlpha>true</evilSquirrelAlpha>
+    <evilSquirrelPatrolRange>175.0</evilSquirrelPatrolRange>
+    <evilSquirrelPatrolSpeed evilSquirrelPatrolXspeed="30" evilSquirrelPatrolYspeed="30"/>
+    <evilSquirrelSight>90.0</evilSquirrelSight>
+	<evilSquirrelAttackRange>35.0</evilSquirrelAttackRange>
+    <evilSquirrelNum>8</evilSquirrelNum>
+    <evilSquirrelRespawn>10</evilSquirrelRespawn>
+    <evilSquirrelAttackType>0</evilSquirrelAttackType>
+    <evilSquirrelAttackInterval>16.0</evilSquirrelAttackInterval>
+    <evilSquirrelXP>100</evilSquirrelXP>
+    <evilSquirrelLevel>1</evilSquirrelLevel>
+    <evilSquirrelHP>50</evilSquirrelHP>
+    <evilSquirrelMP>50</evilSquirrelMP>
+    <evilSquirrelAttack>5</evilSquirrelAttack>
+    <evilSquirrelDefense>5</evilSquirrelDefense>
+</evilSquirrel>
+
+<evilSquirrel1 name="evilSquirrel1">
+    <evilSquirrel1File>images/evilSquirrelAttack.png</evilSquirrel1File>
+    <evilSquirrel1Frames>3</evilSquirrel1Frames>
+    <evilSquirrel1Animations>9</evilSquirrel1Animations>
+    <evilSquirrel1FrameInterval>4</evilSquirrel1FrameInterval>
+    <evilSquirrel1Width>120</evilSquirrel1Width>
+    <evilSquirrel1Height>270</evilSquirrel1Height>
+    <evilSquirrel1SrcX>0</evilSquirrel1SrcX>
+    <evilSquirrel1SrcY>0</evilSquirrel1SrcY>
+    <evilSquirrel1Speed evilSquirrel1Xspeed="80" evilSquirrel1Yspeed="80"/>
+    <evilSquirrel1MaxSpeed evilSquirrel1MaxXspeed="800" evilSquirrel1MaxYspeed="800"/>
+    <evilSquirrel1Loc evilSquirrel1X="2730" evilSquirrel1Y="950"/>
+    <evilSquirrel1Alpha>true</evilSquirrel1Alpha>
+    <evilSquirrel1PatrolRange>175.0</evilSquirrel1PatrolRange>
+    <evilSquirrel1PatrolSpeed evilSquirrel1PatrolXspeed="30" evilSquirrel1PatrolYspeed="30"/>
+    <evilSquirrel1Sight>90.0</evilSquirrel1Sight>
+	<evilSquirrel1AttackRange>35.0</evilSquirrel1AttackRange>
+    <evilSquirrel1Num>8</evilSquirrel1Num>
+    <evilSquirrel1Respawn>10</evilSquirrel1Respawn>
+    <evilSquirrel1AttackType>0</evilSquirrel1AttackType>
+    <evilSquirrel1AttackInterval>16.0</evilSquirrel1AttackInterval>
+    <evilSquirrel1XP>100</evilSquirrel1XP>
+    <evilSquirrel1Level>1</evilSquirrel1Level>
+    <evilSquirrel1HP>50</evilSquirrel1HP>
+    <evilSquirrel1MP>50</evilSquirrel1MP>
+    <evilSquirrel1Attack>5</evilSquirrel1Attack>
+    <evilSquirrel1Defense>5</evilSquirrel1Defense>
+</evilSquirrel1>
+
+<gooSoldier name="gooSoldier">
+    <gooSoldierFile>images/GooSoldierAttack.png</gooSoldierFile>
+    <gooSoldierFrames>3</gooSoldierFrames>
+    <gooSoldierAnimations>9</gooSoldierAnimations>
+    <gooSoldierFrameInterval>4</gooSoldierFrameInterval>
+    <gooSoldierWidth>300</gooSoldierWidth>
+    <gooSoldierHeight>540</gooSoldierHeight>
+    <gooSoldierSrcX>0</gooSoldierSrcX>
+    <gooSoldierSrcY>0</gooSoldierSrcY>
+    <gooSoldierSpeed gooSoldierXspeed="120" gooSoldierYspeed="120"/>
+    <gooSoldierMaxSpeed gooSoldierMaxXspeed="800" gooSoldierMaxYspeed="800"/>
+    <gooSoldierLoc gooSoldierX="3600" gooSoldierY="1620"/>
+    <gooSoldierAlpha>true</gooSoldierAlpha>
+    <gooSoldierPatrolRange>100.0</gooSoldierPatrolRange>
+    <gooSoldierPatrolSpeed gooSoldierPatrolXspeed="50" gooSoldierPatrolYspeed="50"/>
+    <gooSoldierSight>100.0</gooSoldierSight>
+	<gooSoldierAttackRange>35.0</gooSoldierAttackRange>
+    <gooSoldierNum>7</gooSoldierNum>
+    <gooSoldierRespawn>10</gooSoldierRespawn>
+    <gooSoldierAttackType>0</gooSoldierAttackType>
+    <gooSoldierAttackInterval>16.0</gooSoldierAttackInterval>
+    <gooSoldierXP>200</gooSoldierXP>
+    <gooSoldierLevel>5</gooSoldierLevel>
+    <gooSoldierHP>150</gooSoldierHP>
+    <gooSoldierMP>150</gooSoldierMP>
+    <gooSoldierAttack>12</gooSoldierAttack>
+    <gooSoldierDefense>8</gooSoldierDefense>
+</gooSoldier>
+
+<gooSoldier1 name="gooSoldier1">
+    <gooSoldier1File>images/GooSoldierAttack.png</gooSoldier1File>
+    <gooSoldier1Frames>3</gooSoldier1Frames>
+    <gooSoldier1Animations>9</gooSoldier1Animations>
+    <gooSoldier1FrameInterval>4</gooSoldier1FrameInterval>
+    <gooSoldier1Width>300</gooSoldier1Width>
+    <gooSoldier1Height>540</gooSoldier1Height>
+    <gooSoldier1SrcX>0</gooSoldier1SrcX>
+    <gooSoldier1SrcY>0</gooSoldier1SrcY>
+    <gooSoldier1Speed gooSoldier1Xspeed="120" gooSoldier1Yspeed="120"/>
+    <gooSoldier1MaxSpeed gooSoldier1MaxXspeed="800" gooSoldier1MaxYspeed="800"/>
+    <gooSoldier1Loc gooSoldier1X="2000" gooSoldier1Y="150"/>
+    <gooSoldier1Alpha>true</gooSoldier1Alpha>
+    <gooSoldier1PatrolRange>100.0</gooSoldier1PatrolRange>
+    <gooSoldier1PatrolSpeed gooSoldier1PatrolXspeed="50" gooSoldier1PatrolYspeed="50"/>
+    <gooSoldier1Sight>100.0</gooSoldier1Sight>
+	<gooSoldier1AttackRange>35.0</gooSoldier1AttackRange>
+    <gooSoldier1Num>7</gooSoldier1Num>
+    <gooSoldier1Respawn>10</gooSoldier1Respawn>
+    <gooSoldier1AttackType>0</gooSoldier1AttackType>
+    <gooSoldier1AttackInterval>16.0</gooSoldier1AttackInterval>
+    <gooSoldier1XP>200</gooSoldier1XP>
+    <gooSoldier1Level>5</gooSoldier1Level>
+    <gooSoldier1HP>150</gooSoldier1HP>
+    <gooSoldier1MP>150</gooSoldier1MP>
+    <gooSoldier1Attack>12</gooSoldier1Attack>
+    <gooSoldier1Defense>8</gooSoldier1Defense>
+</gooSoldier1>
+
+<iceWolf name="iceWolf">
+    <iceWolfFile>images/iceWolfAttack.png</iceWolfFile>
+    <iceWolfFrames>3</iceWolfFrames>
+    <iceWolfAnimations>9</iceWolfAnimations>
+    <iceWolfFrameInterval>4</iceWolfFrameInterval>
+    <iceWolfWidth>300</iceWolfWidth>
+    <iceWolfHeight>450</iceWolfHeight>
+    <iceWolfSrcX>0</iceWolfSrcX>
+    <iceWolfSrcY>0</iceWolfSrcY>
+    <iceWolfSpeed iceWolfXspeed="130" iceWolfYspeed="130"/>
+    <iceWolfMaxSpeed iceWolfMaxXspeed="800" iceWolfMaxYspeed="800"/>
+    <iceWolfLoc iceWolfX="3420" iceWolfY="275"/>
+    <iceWolfAlpha>true</iceWolfAlpha>
+    <iceWolfPatrolRange>150.0</iceWolfPatrolRange>
+    <iceWolfPatrolSpeed iceWolfPatrolXspeed="60" iceWolfPatrolYspeed="60"/>
+    <iceWolfSight>100.0</iceWolfSight>
+	<iceWolfAttackRange>35.0</iceWolfAttackRange>
+    <iceWolfNum>9</iceWolfNum>
+    <iceWolfRespawn>10</iceWolfRespawn>
+    <iceWolfAttackType>0</iceWolfAttackType>
+    <iceWolfAttackInterval>16.0</iceWolfAttackInterval>
+    <iceWolfXP>500</iceWolfXP>
+    <iceWolfLevel>15</iceWolfLevel>
+    <iceWolfHP>450</iceWolfHP>
+    <iceWolfMP>250</iceWolfMP>
+    <iceWolfAttack>30</iceWolfAttack>
+    <iceWolfDefense>20</iceWolfDefense>
+</iceWolf>
+
+<mimic name="mimic">
+    <mimicFile>images/MimicAttack.png</mimicFile>
+    <mimicFrames>3</mimicFrames>
+    <mimicAnimations>9</mimicAnimations>
+    <mimicFrameInterval>4</mimicFrameInterval>
+    <mimicWidth>179</mimicWidth>
+    <mimicHeight>452</mimicHeight>
+    <mimicSrcX>0</mimicSrcX>
+    <mimicSrcY>0</mimicSrcY>
+    <mimicSpeed mimicXspeed="70" mimicYspeed="70"/>
+    <mimicMaxSpeed mimicMaxXspeed="800" mimicMaxYspeed="800"/>
+    <mimicLoc mimicX="3650" mimicY="2350"/>
+    <mimicAlpha>true</mimicAlpha>
+    <mimicPatrolRange>100.0</mimicPatrolRange>
+    <mimicPatrolSpeed mimicPatrolXspeed="50" mimicPatrolYspeed="50"/>
+    <mimicSight>100.0</mimicSight>
+	<mimicAttackRange>35.0</mimicAttackRange>
+    <mimicNum>7</mimicNum>
+    <mimicRespawn>10</mimicRespawn>
+    <mimicAttackType>0</mimicAttackType>
+    <mimicAttackInterval>16.0</mimicAttackInterval>
+    <mimicXP>500</mimicXP>
+    <mimicLevel>15</mimicLevel>
+    <mimicHP>450</mimicHP>
+    <mimicMP>250</mimicMP>
+    <mimicAttack>10</mimicAttack>
+    <mimicDefense>40</mimicDefense>
+</mimic>
+
+<mimic1 name="mimic1">
+    <mimic1File>images/MimicAttack.png</mimic1File>
+    <mimic1Frames>3</mimic1Frames>
+    <mimic1Animations>9</mimic1Animations>
+    <mimic1FrameInterval>4</mimic1FrameInterval>
+    <mimic1Width>179</mimic1Width>
+    <mimic1Height>452</mimic1Height>
+    <mimic1SrcX>0</mimic1SrcX>
+    <mimic1SrcY>0</mimic1SrcY>
+    <mimic1Speed mimic1Xspeed="70" mimic1Yspeed="70"/>
+    <mimic1MaxSpeed mimic1MaxXspeed="800" mimic1MaxYspeed="800"/>
+    <mimic1Loc mimic1X="500" mimic1Y="2700"/>
+    <mimic1Alpha>true</mimic1Alpha>
+    <mimic1PatrolRange>100.0</mimic1PatrolRange>
+    <mimic1PatrolSpeed mimic1PatrolXspeed="50" mimic1PatrolYspeed="50"/>
+    <mimic1Sight>100.0</mimic1Sight>
+	<mimic1AttackRange>35.0</mimic1AttackRange>
+    <mimic1Num>7</mimic1Num>
+    <mimic1Respawn>10</mimic1Respawn>
+    <mimic1AttackType>0</mimic1AttackType>
+    <mimic1AttackInterval>16.0</mimic1AttackInterval>
+    <mimic1XP>500</mimic1XP>
+    <mimic1Level>15</mimic1Level>
+    <mimic1HP>450</mimic1HP>
+    <mimic1MP>250</mimic1MP>
+    <mimic1Attack>10</mimic1Attack>
+    <mimic1Defense>40</mimic1Defense>
+</mimic1>
+
+<mimic2 name="mimic2">
+    <mimic2File>images/MimicAttack.png</mimic2File>
+    <mimic2Frames>3</mimic2Frames>
+    <mimic2Animations>9</mimic2Animations>
+    <mimic2FrameInterval>4</mimic2FrameInterval>
+    <mimic2Width>179</mimic2Width>
+    <mimic2Height>452</mimic2Height>
+    <mimic2SrcX>0</mimic2SrcX>
+    <mimic2SrcY>0</mimic2SrcY>
+    <mimic2Speed mimic2Xspeed="70" mimic2Yspeed="70"/>
+    <mimic2MaxSpeed mimic2MaxXspeed="800" mimic2MaxYspeed="800"/>
+    <mimic2Loc mimic2X="2250" mimic2Y="2750"/>
+    <mimic2Alpha>true</mimic2Alpha>
+    <mimic2PatrolRange>100.0</mimic2PatrolRange>
+    <mimic2PatrolSpeed mimic2PatrolXspeed="50" mimic2PatrolYspeed="50"/>
+    <mimic2Sight>100.0</mimic2Sight>
+	<mimic2AttackRange>35.0</mimic2AttackRange>
+    <mimic2Num>7</mimic2Num>
+    <mimic2Respawn>10</mimic2Respawn>
+    <mimic2AttackType>0</mimic2AttackType>
+    <mimic2AttackInterval>16.0</mimic2AttackInterval>
+    <mimic2XP>500</mimic2XP>
+    <mimic2Level>15</mimic2Level>
+    <mimic2HP>450</mimic2HP>
+    <mimic2MP>250</mimic2MP>
+    <mimic2Attack>10</mimic2Attack>
+    <mimic2Defense>40</mimic2Defense>
+</mimic2>
+
+<spiderLarge name="spiderLarge">
+    <spiderLargeFile>images/SpiderAttack.png</spiderLargeFile>
+    <spiderLargeFrames>3</spiderLargeFrames>
+    <spiderLargeAnimations>9</spiderLargeAnimations>
+    <spiderLargeFrameInterval>4</spiderLargeFrameInterval>
+    <spiderLargeWidth>180</spiderLargeWidth>
+    <spiderLargeHeight>450</spiderLargeHeight>
+    <spiderLargeSrcX>0</spiderLargeSrcX>
+    <spiderLargeSrcY>0</spiderLargeSrcY>
+    <spiderLargeSpeed spiderLargeXspeed="70" spiderLargeYspeed="70"/>
+    <spiderLargeMaxSpeed spiderLargeMaxXspeed="800" spiderLargeMaxYspeed="800"/>
+    <spiderLargeLoc spiderLargeX="540" spiderLargeY="1500"/>
+    <spiderLargeAlpha>true</spiderLargeAlpha>
+    <spiderLargePatrolRange>100.0</spiderLargePatrolRange>
+    <spiderLargePatrolSpeed spiderLargePatrolXspeed="50" spiderLargePatrolYspeed="50"/>
+    <spiderLargeSight>80.0</spiderLargeSight>
+	<spiderLargeAttackRange>35.0</spiderLargeAttackRange>
+    <spiderLargeNum>6</spiderLargeNum>
+    <spiderLargeRespawn>10</spiderLargeRespawn>
+    <spiderLargeAttackType>0</spiderLargeAttackType>
+    <spiderLargeAttackInterval>16.0</spiderLargeAttackInterval>
+    <spiderLargeXP>400</spiderLargeXP>
+    <spiderLargeLevel>14</spiderLargeLevel>
+    <spiderLargeHP>300</spiderLargeHP>
+    <spiderLargeMP>250</spiderLargeMP>
+    <spiderLargeAttack>15</spiderLargeAttack>
+    <spiderLargeDefense>20</spiderLargeDefense>
+</spiderLarge>
+
+<spiderLarge1 name="spiderLarge1">
+    <spiderLarge1File>images/SpiderAttack.png</spiderLarge1File>
+    <spiderLarge1Frames>3</spiderLarge1Frames>
+    <spiderLarge1Animations>9</spiderLarge1Animations>
+    <spiderLarge1FrameInterval>4</spiderLarge1FrameInterval>
+    <spiderLarge1Width>180</spiderLarge1Width>
+    <spiderLarge1Height>450</spiderLarge1Height>
+    <spiderLarge1SrcX>0</spiderLarge1SrcX>
+    <spiderLarge1SrcY>0</spiderLarge1SrcY>
+    <spiderLarge1Speed spiderLarge1Xspeed="70" spiderLarge1Yspeed="70"/>
+    <spiderLarge1MaxSpeed spiderLarge1MaxXspeed="800" spiderLarge1MaxYspeed="800"/>
+    <spiderLarge1Loc spiderLarge1X="2120" spiderLarge1Y="700"/>
+    <spiderLarge1Alpha>true</spiderLarge1Alpha>
+    <spiderLarge1PatrolRange>100.0</spiderLarge1PatrolRange>
+    <spiderLarge1PatrolSpeed spiderLarge1PatrolXspeed="50" spiderLarge1PatrolYspeed="50"/>
+    <spiderLarge1Sight>80.0</spiderLarge1Sight>
+	<spiderLarge1AttackRange>35.0</spiderLarge1AttackRange>
+    <spiderLarge1Num>8</spiderLarge1Num>
+    <spiderLarge1Respawn>10</spiderLarge1Respawn>
+    <spiderLarge1AttackType>0</spiderLarge1AttackType>
+    <spiderLarge1AttackInterval>16.0</spiderLarge1AttackInterval>
+    <spiderLarge1XP>400</spiderLarge1XP>
+    <spiderLarge1Level>14</spiderLarge1Level>
+    <spiderLarge1HP>300</spiderLarge1HP>
+    <spiderLarge1MP>250</spiderLarge1MP>
+    <spiderLarge1Attack>15</spiderLarge1Attack>
+    <spiderLarge1Defense>20</spiderLarge1Defense>
+</spiderLarge1>
+
+<spiderSmall name="spiderSmall">
+    <spiderSmallFile>images/SpiderAttackSmall.png</spiderSmallFile>
+    <spiderSmallFrames>3</spiderSmallFrames>
+    <spiderSmallAnimations>9</spiderSmallAnimations>
+    <spiderSmallFrameInterval>4</spiderSmallFrameInterval>
+    <spiderSmallWidth>150</spiderSmallWidth>
+    <spiderSmallHeight>375</spiderSmallHeight>
+    <spiderSmallSrcX>0</spiderSmallSrcX>
+    <spiderSmallSrcY>0</spiderSmallSrcY>
+    <spiderSmallSpeed spiderSmallXspeed="90" spiderSmallYspeed="90"/>
+    <spiderSmallMaxSpeed spiderSmallMaxXspeed="800" spiderSmallMaxYspeed="800"/>
+    <spiderSmallLoc spiderSmallX="540" spiderSmallY="1500"/>
+    <spiderSmallAlpha>true</spiderSmallAlpha>
+    <spiderSmallPatrolRange>125.0</spiderSmallPatrolRange>
+    <spiderSmallPatrolSpeed spiderSmallPatrolXspeed="70" spiderSmallPatrolYspeed="70"/>
+    <spiderSmallSight>100.0</spiderSmallSight>
+	<spiderSmallAttackRange>35.0</spiderSmallAttackRange>
+    <spiderSmallNum>12</spiderSmallNum>
+    <spiderSmallRespawn>10</spiderSmallRespawn>
+    <spiderSmallAttackType>0</spiderSmallAttackType>
+    <spiderSmallAttackInterval>16.0</spiderSmallAttackInterval>
+    <spiderSmallXP>200</spiderSmallXP>
+    <spiderSmallLevel>10</spiderSmallLevel>
+    <spiderSmallHP>200</spiderSmallHP>
+    <spiderSmallMP>150</spiderSmallMP>
+    <spiderSmallAttack>12</spiderSmallAttack>
+    <spiderSmallDefense>16</spiderSmallDefense>
+</spiderSmall>
+
+<spiderSmall1 name="spiderSmall1">
+    <spiderSmall1File>images/SpiderAttackSmall.png</spiderSmall1File>
+    <spiderSmall1Frames>3</spiderSmall1Frames>
+    <spiderSmall1Animations>9</spiderSmall1Animations>
+    <spiderSmall1FrameInterval>4</spiderSmall1FrameInterval>
+    <spiderSmall1Width>150</spiderSmall1Width>
+    <spiderSmall1Height>375</spiderSmall1Height>
+    <spiderSmall1SrcX>0</spiderSmall1SrcX>
+    <spiderSmall1SrcY>0</spiderSmall1SrcY>
+    <spiderSmall1Speed spiderSmall1Xspeed="90" spiderSmall1Yspeed="90"/>
+    <spiderSmall1MaxSpeed spiderSmall1MaxXspeed="800" spiderSmall1MaxYspeed="800"/>
+    <spiderSmall1Loc spiderSmall1X="550" spiderSmall1Y="2100"/>
+    <spiderSmall1Alpha>true</spiderSmall1Alpha>
+    <spiderSmall1PatrolRange>125.0</spiderSmall1PatrolRange>
+    <spiderSmall1PatrolSpeed spiderSmall1PatrolXspeed="70" spiderSmall1PatrolYspeed="70"/>
+    <spiderSmall1Sight>175.0</spiderSmall1Sight>
+	<spiderSmall1AttackRange>35.0</spiderSmall1AttackRange>
+    <spiderSmall1Num>12</spiderSmall1Num>
+    <spiderSmall1Respawn>10</spiderSmall1Respawn>
+    <spiderSmall1AttackType>0</spiderSmall1AttackType>
+    <spiderSmall1AttackInterval>16.0</spiderSmall1AttackInterval>
+    <spiderSmall1XP>200</spiderSmall1XP>
+    <spiderSmall1Level>10</spiderSmall1Level>
+    <spiderSmall1HP>200</spiderSmall1HP>
+    <spiderSmall1MP>150</spiderSmall1MP>
+    <spiderSmall1Attack>12</spiderSmall1Attack>
+    <spiderSmall1Defense>16</spiderSmall1Defense>
+</spiderSmall1>
+
+<zombie1 name="zombie1">
+    <zombie1File>images/ZombieAttack.png</zombie1File>
+    <zombie1Frames>3</zombie1Frames>
+    <zombie1Animations>9</zombie1Animations>
+    <zombie1FrameInterval>4</zombie1FrameInterval>
+    <zombie1Width>300</zombie1Width>
+    <zombie1Height>450</zombie1Height>
+    <zombie1SrcX>0</zombie1SrcX>
+    <zombie1SrcY>0</zombie1SrcY>
+    <zombie1Speed zombie1Xspeed="60" zombie1Yspeed="60"/>
+    <zombie1MaxSpeed zombie1MaxXspeed="800" zombie1MaxYspeed="800"/>
+    <zombie1Loc zombie1X="950" zombie1Y="270"/>
+    <zombie1Alpha>true</zombie1Alpha>
+    <zombie1PatrolRange>125.0</zombie1PatrolRange>
+    <zombie1PatrolSpeed zombie1PatrolXspeed="70" zombie1PatrolYspeed="70"/>
+    <zombie1Sight>250.0</zombie1Sight>
+	<zombie1AttackRange>35.0</zombie1AttackRange>
+    <zombie1Num>12</zombie1Num>
+    <zombie1Respawn>10</zombie1Respawn>
+    <zombie1AttackType>0</zombie1AttackType>
+    <zombie1AttackInterval>16.0</zombie1AttackInterval>
+    <zombie1XP>500</zombie1XP>
+    <zombie1Level>20</zombie1Level>
+    <zombie1HP>400</zombie1HP>
+    <zombie1MP>150</zombie1MP>
+    <zombie1Attack>30</zombie1Attack>
+    <zombie1Defense>10</zombie1Defense>
+</zombie1>
+
+<zombie2 name="zombie2">
+    <zombie2File>images/ZombieAttack.png</zombie2File>
+    <zombie2Frames>3</zombie2Frames>
+    <zombie2Animations>9</zombie2Animations>
+    <zombie2FrameInterval>4</zombie2FrameInterval>
+    <zombie2Width>300</zombie2Width>
+    <zombie2Height>450</zombie2Height>
+    <zombie2SrcX>0</zombie2SrcX>
+    <zombie2SrcY>0</zombie2SrcY>
+    <zombie2Speed zombie2Xspeed="60" zombie2Yspeed="60"/>
+    <zombie2MaxSpeed zombie2MaxXspeed="800" zombie2MaxYspeed="800"/>
+    <zombie2Loc zombie2X="460" zombie2Y="780"/>
+    <zombie2Alpha>true</zombie2Alpha>
+    <zombie2PatrolRange>125.0</zombie2PatrolRange>
+    <zombie2PatrolSpeed zombie2PatrolXspeed="70" zombie2PatrolYspeed="70"/>
+    <zombie2Sight>250.0</zombie2Sight>
+	<zombie2AttackRange>35.0</zombie2AttackRange>
+    <zombie2Num>12</zombie2Num>
+    <zombie2Respawn>10</zombie2Respawn>
+    <zombie2AttackType>0</zombie2AttackType>
+    <zombie2AttackInterval>16.0</zombie2AttackInterval>
+    <zombie2XP>500</zombie2XP>
+    <zombie2Level>20</zombie2Level>
+    <zombie2HP>400</zombie2HP>
+    <zombie2MP>150</zombie2MP>
+    <zombie2Attack>30</zombie2Attack>
+    <zombie2Defense>10</zombie2Defense>
+</zombie2>
+
+<zombie3 name="zombie3">
+    <zombie3File>images/ZombieAttack.png</zombie3File>
+    <zombie3Frames>3</zombie3Frames>
+    <zombie3Animations>9</zombie3Animations>
+    <zombie3FrameInterval>4</zombie3FrameInterval>
+    <zombie3Width>300</zombie3Width>
+    <zombie3Height>450</zombie3Height>
+    <zombie3SrcX>0</zombie3SrcX>
+    <zombie3SrcY>0</zombie3SrcY>
+    <zombie3Speed zombie3Xspeed="60" zombie3Yspeed="60"/>
+    <zombie3MaxSpeed zombie3MaxXspeed="800" zombie3MaxYspeed="800"/>
+    <zombie3Loc zombie3X="1330" zombie3Y="640"/>
+    <zombie3Alpha>true</zombie3Alpha>
+    <zombie3PatrolRange>125.0</zombie3PatrolRange>
+    <zombie3PatrolSpeed zombie3PatrolXspeed="70" zombie3PatrolYspeed="70"/>
+    <zombie3Sight>250.0</zombie3Sight>
+	<zombie3AttackRange>35.0</zombie3AttackRange>
+    <zombie3Num>12</zombie3Num>
+    <zombie3Respawn>10</zombie3Respawn>
+    <zombie3AttackType>0</zombie3AttackType>
+    <zombie3AttackInterval>16.0</zombie3AttackInterval>
+    <zombie3XP>500</zombie3XP>
+    <zombie3Level>20</zombie3Level>
+    <zombie3HP>400</zombie3HP>
+    <zombie3MP>150</zombie3MP>
+    <zombie3Attack>30</zombie3Attack>
+    <zombie3Defense>10</zombie3Defense>
+</zombie3>
+</GameData>
